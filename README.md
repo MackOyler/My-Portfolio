@@ -2,7 +2,7 @@
 
 Mack Oyler's Portfolio using React!
 
-You can check it out [here](https://mackoyler.com)
+You can check it out [here](https://mackoyler.com)! 
 
 ## Tech 
 
