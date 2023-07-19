@@ -23,24 +23,35 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>1 Year Working</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>A growing list</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsem ipsum dolor sit amet, consectetur adipiscing elit. Eaque eos quam, quisque quisque. Quisque quisque.
+          Hello there! <br></br>My name is Mack, and I am a full-stack web developer who originally started in the Finance/Accounting world. <br></br>
+          I am a USMC veteran with a BS in Business Management from SIU Carbondale. <br></br>
+          <br></br>
+          After years of coding on the side as a hobby, I decided to enroll in the 'Full-Stack Web Development' bootcamp at Washington University in St Louis. 
+          There, I gained hands on experience while learning in a classroom setting. <br></br>
+          <br></br>
+          I have strong experience in HTML, CSS, JavaScript, using APIs and using Node.js. 
+          I also have some experience in SQL, and I am currently learning Python in my spare time. 
+          I am actively seeking a career in Software Development/Tech where I can utilize my skill newly acquired skillset while expanding my knowledge and experiences. 
+          I am very excited to be able to finally put to use HTML, CSS, JS, Node, Express, APIs / Frameworks a professional setting! 
+          
+          I am also so excited to finally make the shift into a new career! 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
