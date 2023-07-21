@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-          Hello there! <br></br>My name is Mack, and I am a full-stack web developer who originally started in the Finance/Accounting world. <br></br>
+          Hello there! <br></br> <br></br>My name is Mack, and I am a full-stack web developer who originally started in the Finance/Accounting world. <br></br>
           I am a USMC veteran with a BS in Business Management from SIU Carbondale. <br></br>
           <br></br>
           After years of coding on the side as a hobby, I decided to enroll in the 'Full-Stack Web Development' bootcamp at Washington University in St Louis. 
