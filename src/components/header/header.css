@@ -1,6 +1,6 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
+    height: 60vh;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -39,14 +39,14 @@ header {
 /* ================= ME =========================== */
 .me {
     background: linear-gradient(var(--color-primary-variant), transparent);
-    width: 22rem;
+    width: 21rem;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(55% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 4rem 0.1rem rem 5rem;
 }
 
 /* ================= SCROLL DOWN =========================== */

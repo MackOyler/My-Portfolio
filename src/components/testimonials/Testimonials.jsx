@@ -19,22 +19,22 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Tina Snow',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    review: 'Mack does an excellent job creating and bringing to life the ideas we have in our heads but have trouble explaining. He is very good at delivering what you want as a client.'
   },
   {
     avatar: AVTR2,
-    name: 'Shatta Wale',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    name: 'Shatta Wade',
+    review: 'Even though Mack is just starting out at development, he is very good at explaining everything and walking us through the process. He does great work and I plan on using him in the future.'
   },
   {
     avatar: AVTR3,
-    name: 'Kwame Despite',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    name: 'Kwame De',
+    review: 'Mack did not disappoint. He works tirelessly to deliver what he promises. He really seems to listen to everything we were looking for and pays attention to details.'
   },
   {
     avatar: AVTR4,
-    name: 'Nana Ama McBrown',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+    name: 'Ama B',
+    review: 'We love using Mack! '
   },
 ]
 
