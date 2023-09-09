@@ -13,11 +13,11 @@ import IMG8 from '../../assets/portfolio5.png'
 
 const data = [
   {
-    id: 1,
-    image: IMG7,
-    title: 'STL Pets',
-    github: 'https://github.com/MackOyler/Project-3-Repo',
-    demo: 'https://saint-louis-pets-554-d862dc3f7739.herokuapp.com/'
+    id: 5,
+    image: IMG5,
+    title: 'Horiseon: SEO',
+    github: 'https://github.com/MackOyler/Horiseon-SEO',
+    demo: 'https://mackoyler.github.io/Horiseon-SEO/'
   },
   {
     id: 2,
@@ -27,11 +27,11 @@ const data = [
     demo: 'https://github.com/MackOyler/E-Commerce.Back-End'
   },
   {
-    id: 3,
-    image: IMG3,
-    title: 'Basic Code Quiz Game',
-    github: 'https://github.com/MackOyler/Code-Quiz',
-    demo: 'https://mackoyler.github.io/Code-Quiz/'
+    id: 6,
+    image: IMG8,
+    title: 'Social Media API ',
+    github: 'https://github.com/MackOyler/SocialMediaAPI',
+    demo: 'https://github.com/MackOyler/SocialMediaAPI'
   },
   {
     id: 4,
@@ -41,20 +41,21 @@ const data = [
     demo: 'https://mackoyler.github.io/RandomPasswordGenerator/'
   },
   {
-    id: 5,
-    image: IMG5,
-    title: 'Horiseon: SEO',
-    github: 'https://github.com/MackOyler/Horiseon-SEO',
-    demo: 'https://mackoyler.github.io/Horiseon-SEO/'
+    id: 3,
+    image: IMG3,
+    title: 'Basic Code Quiz Game',
+    github: 'https://github.com/MackOyler/Code-Quiz',
+    demo: 'https://mackoyler.github.io/Code-Quiz/'
   },
   {
-    id: 6,
-    image: IMG8,
-    title: 'Social Media API ',
-    github: 'https://github.com/MackOyler/SocialMediaAPI',
-    demo: 'https://github.com/MackOyler/SocialMediaAPI'
+    id: 1,
+    image: IMG7,
+    title: 'STL Pets',
+    github: 'https://github.com/MackOyler/Project-3-Repo',
+    demo: 'https://saint-louis-pets-554-d862dc3f7739.herokuapp.com/'
   }
-]
+];
+
 
 
 const Portfolio = () => {
