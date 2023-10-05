@@ -8,33 +8,13 @@ import headcutout from '../../assets/headcutout.png'
 import btnBG from '../../assets/button-bb-bg.png'
 
 const About = () => {
-  const aboutMeRef = useRef(null); // Reference for the about__me div
-
-  useEffect(() => {
-    const adjustAspectRatio = () => {
-      const aboutMeDiv = aboutMeRef.current;
-      if (aboutMeDiv) {
-        const width = aboutMeDiv.offsetWidth;
-        aboutMeDiv.style.height = `${width / 2}px`; // 2:1 ratio
-      }
-    }
-
-    adjustAspectRatio(); // Adjust aspect ratio on component mount
-
-    window.addEventListener('resize', adjustAspectRatio); // Adjust aspect ratio on window resize
-
-    return () => { 
-      window.removeEventListener('resize', adjustAspectRatio); // Cleanup listener on unmount
-    };
-  }, []);
-
   return (
     <section id='about'>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me" ref={aboutMeRef}>
+        <div className="about__me">
           <div className="about__me-image">
             <img src={ME} alt="About image" />
           </div>
