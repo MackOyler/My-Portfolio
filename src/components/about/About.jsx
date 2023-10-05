@@ -1,18 +1,40 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './about.css'
 import ME from '../../assets/me-about.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import headcutout from '../../assets/headcutout.png'
+import btnBG from '../../assets/button-bb-bg.png'
 
 const About = () => {
+  const aboutMeRef = useRef(null); // Reference for the about__me div
+
+  useEffect(() => {
+    const adjustAspectRatio = () => {
+      const aboutMeDiv = aboutMeRef.current;
+      if (aboutMeDiv) {
+        const width = aboutMeDiv.offsetWidth;
+        aboutMeDiv.style.height = `${width / 2}px`; // 2:1 ratio
+      }
+    }
+
+    adjustAspectRatio(); // Adjust aspect ratio on component mount
+
+    window.addEventListener('resize', adjustAspectRatio); // Adjust aspect ratio on window resize
+
+    return () => { 
+      window.removeEventListener('resize', adjustAspectRatio); // Cleanup listener on unmount
+    };
+  }, []);
+
   return (
     <section id='about'>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
+        <div className="about__me" ref={aboutMeRef}>
           <div className="about__me-image">
             <img src={ME} alt="About image" />
           </div>
@@ -48,17 +70,20 @@ const About = () => {
           <br></br>
           I have strong experience in HTML, CSS, JavaScript, using Node.js and React. I feel most comfortable in a MERN Stack, but am open to learning new technologies. <br></br>
           <br></br>I also have some experience in SQL, and I am currently learning Python in my spare time. 
-          I am actively seeking a career in Software Development/Tech where I can utilize my skill newly acquired skillset while expanding my knowledge and experiences. 
+          I am actively seeking a career in Software Development/Tech where I can utilize my newly acquired skillset while expanding my knowledge and experiences. 
           I am very excited to be able to finally put to use HTML, CSS, JS, Node, Express, APIs / Frameworks a professional setting! 
           
           I am also so excited to finally make the shift into a new career! 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="https://mackoyler.github.io/BetterCallMack/" className='bcm-button' target="_blank" rel="noopener noreferrer" style={{ backgroundImage: `url(${btnBG})` }}>
+  The One Who Codes <img src={headcutout} alt="Mack's Cutout" className="inline-icon"/>
+</a>
         </div>
       </div>
       </section>
   )
 }
 
-export default About
+export default About;
