@@ -25,7 +25,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>1 Year Working</small>
+              <small>2 Years</small>
             </article>
 
             <article className='about__card'>
@@ -37,23 +37,18 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>25+ Completed</small>
+              <small>35+ Completed</small>
             </article>
           </div>
 
           <p>
-          Hello world! <br></br> <br></br>My name is Mack, and I am a full-stack web developer who originally started in the Finance/Accounting world. <br></br>
-          I am a USMC veteran with a BS in Business Management from SIU Carbondale. <br></br>
+          Hello world! <br></br> <br></br>My name is Mack, a full-stack web developer with a strong foundation in the MERN stack, and Front-End Development. <br></br>
+          My career transitioned from Finance/Accounting into tech after serving as a USMC veteran and earning a BS in Business Management from SIU Carbondale. <br></br>
           <br></br>
-          After years of coding on the side as a hobby, I decided to enroll in the 'Full-Stack Coding' bootcamp at Washington University in St Louis. 
-          There, I gained hands on experience while learning in a classroom setting.I worked with fellow students, as well as instructors with current real-world experience in this field.<br></br>
+          I further developed my coding skills at the 'Full-Stack Coding' bootcamp at Washington University in St. Louis, which provided hands-on learning experiences from industry-skilled instructors. I then honed these skills during an internship at Skeleton Key, where I worked on projects ranging from dynamic web applications to interactive games, enhancing my expertise in project delivery and client solutions.<br></br>
           <br></br>
-          I have strong experience in HTML, CSS, JavaScript, using Node.js and React. I feel most comfortable in a MERN Stack, but am open to learning new technologies. <br></br>
-          <br></br>I also have some experience in SQL, and I am currently learning Python in my spare time. 
-          I am actively seeking a career in Software Development/Tech where I can utilize my newly acquired skillset while expanding my knowledge and experiences. 
-          I am very excited to be able to finally put to use HTML, CSS, JS, Node, Express, APIs / Frameworks a professional setting! 
-          
-          I am also so excited to finally make the shift into a new career! 
+          In addition to my proficiency with the MERN stack, I actively engage in side projects using Python, particularly in game development, which allows me to explore more creative aspects of coding. <br></br>
+          <br></br>My goal is to leverage my experiences and skills in a professional software development role where I can continue to grow and make significant contributions to projects. I am particularly passionate about using my expertise in HTML, CSS, JavaScript, and Node.js to create impactful and efficient web solutions. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
