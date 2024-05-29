@@ -1,13 +1,13 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/RMimg.png'
 import IMG3 from '../../assets/codeQuiz.png'
-import IMG4 from '../../assets/pwGen.png'
+import IMG4 from '../../assets/CGoL.png'
 import IMG5 from '../../assets/Brainwave.png'
-import IMG6 from '../../assets/HoriseonSEO.png'
+import IMG6 from '../../assets/sxl.png'
 import IMG7 from '../../assets/2048.png'
-import IMG8 from '../../assets/portfolio5.png'
+import IMG8 from '../../assets/PlanetOrbit.png'
 
 // DO NOT USE THE IMAGES IN PRODUCTION
 
@@ -22,16 +22,16 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'E-Commerce Back-End',
-    github: 'https://github.com/MackOyler/E-Commerce.Back-End',
-    demo: 'https://github.com/MackOyler/E-Commerce.Back-End'
+    title: 'Gravity Simulation (Slingshot)',
+    github: 'https://github.com/MackOyler/Slingshot_Gravity_Sim/tree/main',
+    demo: 'https://github.com/MackOyler/Slingshot_Gravity_Sim/blob/main/main.py'
   },
   {
     id: 6,
     image: IMG8,
-    title: 'Social Media API ',
-    github: 'https://github.com/MackOyler/SocialMediaAPI',
-    demo: 'https://github.com/MackOyler/SocialMediaAPI'
+    title: 'Planet Orbit Simulation',
+    github: 'https://github.com/MackOyler/Planet_Orbit_Sim',
+    demo: 'https://github.com/MackOyler/Planet_Orbit_Sim/blob/main/main.py'
   },
   {
     id: 1,
@@ -43,16 +43,16 @@ const data = [
   {
     id: 5,
     image: IMG6,
-    title: 'Horiseon: SEO',
-    github: 'https://github.com/MackOyler/Horiseon-SEO',
-    demo: 'https://mackoyler.github.io/Horiseon-SEO/'
+    title: 'SpaceX Launch Tracker',
+    github: 'https://github.com/MackOyler/SpaceX_Launch_Tracker',
+    demo: 'https://github.com/MackOyler/SpaceX_Launch_Tracker/blob/main/app.py'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Password Generator ',
-    github: 'https://github.com/MackOyler/RandomPasswordGenerator',
-    demo: 'https://mackoyler.github.io/RandomPasswordGenerator/'
+    title: "Conway's Game of Life",
+    github: 'https://github.com/MackOyler/Conways_Game_of_Life',
+    demo: 'https://github.com/MackOyler/Conways_Game_of_Life/blob/main/main.py'
   },
 ];
 

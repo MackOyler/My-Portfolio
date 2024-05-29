@@ -53,7 +53,7 @@ const About = () => {
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           <a href="https://mackoyler.github.io/BetterCallMack/" className='bcm-button' target="_blank" rel="noopener noreferrer" style={{ backgroundImage: `url(${btnBG})` }}>
-  The One Who Codes <img src={headcutout} alt="Mack's Cutout" className="inline-icon"/>
+  The One Who Codes ? <img src={headcutout} alt="Mack's Cutout" className="inline-icon"/>
 </a>
         </div>
       </div>
