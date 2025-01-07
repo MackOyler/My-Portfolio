@@ -25,7 +25,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>2 Years</small>
+              <small>5 Years</small>
             </article>
 
             <article className='about__card'>
@@ -37,19 +37,19 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>35+ Completed</small>
+              <small>55+ Completed</small>
             </article>
           </div>
 
           <p>
-          Hello world! <br></br> <br></br>My name is Mack, a full-stack web developer with a strong foundation in the MERN stack, and Front-End Development. <br></br>
-          My career transitioned from Finance/Accounting into tech after serving as a USMC veteran and earning a BS in Business Management from SIU Carbondale. <br></br>
-          <br></br>
-          I further developed my coding skills at the 'Full-Stack Coding' bootcamp at Washington University in St. Louis, which provided hands-on learning experiences from industry-skilled instructors. I then honed these skills during an internship at Skeleton Key, where I worked on projects ranging from dynamic web applications to interactive games, enhancing my expertise in project delivery and client solutions.<br></br>
-          <br></br>
-          In addition to my proficiency with the MERN stack, I actively engage in side projects using Python, particularly in game development, which allows me to explore more creative aspects of coding. <br></br>
-          <br></br>My goal is to leverage my experiences and skills in a professional software development role where I can continue to grow and make significant contributions to projects. I am particularly passionate about using my expertise in HTML, CSS, JavaScript, and Node.js to create impactful and efficient web solutions. 
+  Hello world!<br /><br />
+  My name is Mack, a versatile professional blending expertise in Business Analysis, Data Analysis, and Software Development.<br /><br />
+  My career journey began in Finance/Accounting before transitioning into the tech industry, following my service as a USMC veteran and earning a BS in Business Management from SIU Carbondale.<br /><br />
+  I further cultivated my technical skills through the 'Full-Stack Coding' bootcamp at Washington University in St. Louis, where I gained hands-on experience from industry-seasoned instructors. During an internship at Skeleton Key, I worked on diverse projects, ranging from dynamic web applications to interactive games, sharpening my abilities in delivering solutions that meet both technical and business needs.<br /><br />
+  Today, I leverage my background in Finance and tech to bridge the gap between data-driven insights and actionable strategies. My work focuses on analyzing data, creating impactful visualizations, and crafting software solutions that enhance decision-making processes. I specialize in front-end development using HTML, CSS, and JavaScript, alongside developing and visualizing data with tools like Python and SQL.<br /><br />
+  Whether building intuitive user interfaces or uncovering insights through data, I am driven by a passion for problem-solving and creating value through technology. My goal is to continue evolving as a professional, making meaningful contributions to projects that blend innovation with practicality.
           </p>
+
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           <a href="https://mackoyler.github.io/BetterCallMack/" className='bcm-button' target="_blank" rel="noopener noreferrer" style={{ backgroundImage: `url(${btnBG})` }}>

@@ -66,9 +66,12 @@
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
+    margin: 2rem 0;
     color: var(--color-light);
+    line-height: 1.8; /* Add better spacing between lines */
+    text-align: justify; /* Align text properly for long paragraphs */
 }
+
 
 .bcm-button {
     background-size: cover;
